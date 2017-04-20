@@ -1,17 +1,17 @@
 ﻿"use strict";
 
-angular.module("framework").directive("framework", function () {
+angular.module('framework').directive('framework', function () {
     return {
 
-        transclude: false,
+        transclude: true,
         scope: {
             title: '@',
             subtitle: '@',
             iconFile: '@'
 
         },
-        controller: "frameworkController",
-        templateUrl: "core/framework/frameworkTemplate.html"
+        controller: 'frameworkController',
+        templateUrl: 'core/framework/frameworkTemplate.html'
 
     };
 

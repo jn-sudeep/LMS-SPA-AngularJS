@@ -75,7 +75,13 @@
     <Content Include="core\framework\frameworkDirective.js" />
     <Content Include="core\framework\frameworkModule.js" />
     <Content Include="core\framework\frameworkTemplate.html" />
+    <Content Include="core\menu\menu.css" />
+    <Content Include="core\menu\menuController.js" />
+    <Content Include="core\menu\menuDirective.js" />
+    <Content Include="core\menu\menuItemDirective.js" />
+    <Content Include="core\menu\menuItemTemplate.html" />
     <Content Include="core\menu\menuModule.js" />
+    <Content Include="core\menu\menuTemplate.html" />
     <Content Include="images\Logo.jpg" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
