@@ -21,6 +21,7 @@
     <script src="core/menu/menuController.js"></script>
     <script src="core/menu/menuDirective.js"></script>
     <script src="core/menu/menuItemDirective.js"></script>
+    <script src="core/menu/menuGroupDirective.js"></script>
 
     <script src="app/libraryApp.js"></script>
 
@@ -28,8 +29,18 @@
 <body class="container-fluid">
     <framework title="LMS" subtitle="Operations" icon-file="images/Logo.jpg">
         <menu>
-            <menu-item label="Book" icon="fa-book" route="book"></menu-item>
-            <menu-item label="Member" icon="fa-user" route="member"></menu-item>
+            <menu-group label="Book" icon="fa-book">
+                <menu-item label="Add" icon="fa-plus" route="addBook"></menu-item>
+                <menu-item label="Modify" icon="fa-pencil" route="modifyBook"></menu-item>
+                <menu-item label="Delete" icon="fa-trash-o" route="deleteBook"></menu-item>
+                <menu-item label="Issue" icon="fa-arrow-up" route="issueBook"></menu-item>
+                <menu-item label="Return" icon="fa-arrow-down" route="returnBook"></menu-item>
+            </menu-group>
+            <menu-group label="Member" icon="fa-user">
+                <menu-item label="Add" icon="fa-plus" route="addMember"></menu-item>
+                <menu-item label="Modify" icon="fa-pencil" route="modifyMember"></menu-item>
+                <menu-item label="Delete" icon="fa-trash-o" route="deleteMember"></menu-item>
+            </menu-group>
         </menu>
     </framework>
 </body>

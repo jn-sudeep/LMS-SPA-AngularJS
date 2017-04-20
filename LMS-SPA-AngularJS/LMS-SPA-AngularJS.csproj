@@ -78,7 +78,9 @@
     <Content Include="core\menu\menu.css" />
     <Content Include="core\menu\menuController.js" />
     <Content Include="core\menu\menuDirective.js" />
+    <Content Include="core\menu\menuGroupDirective.js" />
     <Content Include="core\menu\menuItemDirective.js" />
+    <Content Include="core\menu\menuGroupTemplate.html" />
     <Content Include="core\menu\menuItemTemplate.html" />
     <Content Include="core\menu\menuModule.js" />
     <Content Include="core\menu\menuTemplate.html" />
