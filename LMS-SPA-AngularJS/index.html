@@ -1,20 +1,27 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="libraryApp">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>LMS - SPA</title>
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <script src="Scripts/jquery-3.1.1.min.js"></script>
     <script src="Scripts/angular.min.js"></script>
+    <link href="core/framework/framework.css" rel="stylesheet" />
 
     <script src="core/dashboard/dashboardModule.js"></script>
     <script src="core/menu/menuModule.js"></script>
+
     <script src="core/framework/frameworkModule.js"></script>
+    <script src="core/framework/frameworkController.js"></script>
+    <script src="core/framework/frameworkDirective.js"></script>
 
     <script src="app/libraryApp.js"></script>
+    <link href="app/libraryApp.css" rel="stylesheet" />
 
 </head>
-<body>
-
+<body class="container-fluid">
+    <framework title="LMS" subtitle="Operations" icon-file="images/Logo.jpg"></framework>
 </body>
 </html>
+

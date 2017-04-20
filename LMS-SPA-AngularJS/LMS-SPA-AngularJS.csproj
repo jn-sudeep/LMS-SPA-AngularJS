@@ -66,10 +66,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\config.js" />
+    <Content Include="app\libraryApp.css" />
     <Content Include="app\libraryApp.js" />
     <Content Include="core\dashboard\dashboardModule.js" />
+    <Content Include="core\framework\framework.css" />
+    <Content Include="core\framework\frameworkController.js" />
+    <Content Include="core\framework\frameworkDirective.js" />
     <Content Include="core\framework\frameworkModule.js" />
+    <Content Include="core\framework\frameworkTemplate.html" />
     <Content Include="core\menu\menuModule.js" />
+    <Content Include="images\Logo.jpg" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
