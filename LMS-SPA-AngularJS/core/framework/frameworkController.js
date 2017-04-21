@@ -3,7 +3,7 @@
         function ($scope, $location) {
 
             $scope.$on('menu-item-selected-event', function (evt, data) {
-                $location.path(data.route);
+                $location.path('/' + data.route);
             });
         }
     ]);

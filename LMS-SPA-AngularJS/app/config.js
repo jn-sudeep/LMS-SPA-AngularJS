@@ -1,20 +1,9 @@
-﻿angular.module('libraryApp').config(function ($provider) {
-    $provider.decorator("$exceptionHandler", ["$delegate", function ($delegate) {
-
-        return function (exception, cause) {
-            $delegate(exception, cause);
-            alert(exception.message);
-        };
-    }]);
-});
-
-angular.module('libraryApp').config(
+﻿angular.module("libraryApp").config(
     ["$routeProvider",
     function ($routeProvider) {
         $routeProvider
             .when("/home", {
-                templateUrl: "app/Home.html",
-                controller: "HomeController"
+                templateUrl: "app/Home.html"
             })
 
             .when("/addBook", {

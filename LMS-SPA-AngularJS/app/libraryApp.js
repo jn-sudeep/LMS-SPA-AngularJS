@@ -1,4 +1,4 @@
 ﻿"use strict";
 
-angular.module("libraryApp", ["framework"]);
+angular.module("libraryApp", ["framework", "ngRoute"]);
 

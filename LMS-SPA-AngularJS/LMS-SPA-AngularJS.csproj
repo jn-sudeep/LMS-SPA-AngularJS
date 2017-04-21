@@ -66,8 +66,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\Book\addBook.html" />
+    <Content Include="app\Book\bookController.js" />
+    <Content Include="app\Book\bookService.js" />
+    <Content Include="app\Book\deleteBook.html" />
+    <Content Include="app\Book\modifyBook.html" />
     <Content Include="app\config.js" />
-    <Content Include="app\libraryApp.css" />
+    <Content Include="app\Home.html" />
     <Content Include="app\libraryApp.js" />
     <Content Include="core\dashboard\dashboardModule.js" />
     <Content Include="core\framework\framework.css" />
@@ -84,6 +89,7 @@
     <Content Include="core\menu\menuItemTemplate.html" />
     <Content Include="core\menu\menuModule.js" />
     <Content Include="core\menu\menuTemplate.html" />
+    <Content Include="favicon.ico" />
     <Content Include="images\Logo.jpg" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
