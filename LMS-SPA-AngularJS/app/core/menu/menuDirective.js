@@ -7,7 +7,7 @@ angular.module('menu').directive('menu', function () {
         scope:{
         },
 
-        templateUrl: 'core/menu/menuTemplate.html',
+        templateUrl: 'app/core/menu/menuTemplate.html',
         controller: 'menuController',
         link: function (scope, el, attr) {
         }

@@ -11,8 +11,6 @@ angular.module('framework').directive('framework', function () {
 
         },
         controller: 'frameworkController',
-        templateUrl: 'core/framework/frameworkTemplate.html'
-
+        templateUrl: '/app/core/framework/frameworkTemplate.html'
     };
-
 });

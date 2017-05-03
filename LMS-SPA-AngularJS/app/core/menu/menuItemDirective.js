@@ -9,7 +9,7 @@ angular.module('menu').directive('menuItem', function () {
             icon: '@',
             route: '@'
         },
-        templateUrl: 'core/menu/menuItemTemplate.html',
+        templateUrl: 'app/core/menu/menuItemTemplate.html',
         link: function (scope, el, attr, ctrl) {
 
             scope.isActive = function () {

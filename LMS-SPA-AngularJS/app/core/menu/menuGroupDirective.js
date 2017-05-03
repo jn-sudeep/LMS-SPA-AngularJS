@@ -9,7 +9,7 @@ angular.module('menu').directive('menuGroup', function () {
             label: '@',
             icon: '@'
         },
-        templateUrl: 'core/menu/menuGroupTemplate.html',
+        templateUrl: 'app/core/menu/menuGroupTemplate.html',
         link: function (scope, el, attr, ctrl) {
             scope.isOpen = false;
 
